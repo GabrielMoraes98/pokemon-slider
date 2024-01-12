@@ -1,0 +1,28 @@
+@media (max-width: 600px) {
+  body {
+    font-size: 1.2rem;
+  }
+  body .container .card {
+    min-width: 250px;
+    margin-top: -70px;
+    gap: 3px;
+  }
+  body .container .card .img-pokemon{
+    max-width: 200px;
+  }
+  body .container .arrow {
+    position: absolute;
+    bottom: 4%;
+  }
+  body .container .arrow.left {
+    left: 2%;
+  }
+  body .container .arrow.right {
+    right: 2%;
+  }
+}
+@media (max-width: 380px){
+  body .container .card{
+    max-width: 90%;
+  }
+}
