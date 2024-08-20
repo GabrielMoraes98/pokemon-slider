@@ -5,7 +5,7 @@
   body .container .card {
     min-width: 250px;
     margin-top: -70px;
-    gap: 3px;
+    gap: 25px;
   }
   body .container .card .img-pokemon{
     max-width: 200px;
@@ -13,12 +13,13 @@
   body .container .arrow {
     position: absolute;
     bottom: 4%;
+    padding: 15px;
   }
   body .container .arrow.left {
-    left: 2%;
+    left: 4%;
   }
   body .container .arrow.right {
-    right: 2%;
+    right: 4%;
   }
 }
 @media (max-width: 380px){
